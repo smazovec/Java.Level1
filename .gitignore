@@ -1,5 +1,6 @@
 # Intellij IDEA confi file
 */.idea/
+*.iml
 */target/
 
 # Compiled class file
