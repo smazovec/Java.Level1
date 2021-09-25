@@ -1,7 +1,10 @@
-# Intellij IDEA confi file
+# Intellij IDEA config file
 */.idea/
 *.iml
 */target/
+
+# Maven config file
+pom.xml
 
 # Compiled class file
 *.class
