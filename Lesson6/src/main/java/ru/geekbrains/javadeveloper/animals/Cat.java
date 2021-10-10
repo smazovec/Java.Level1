@@ -1,10 +1,12 @@
+package ru.geekbrains.javadeveloper.animals;
+
 public class Cat extends Animal {
 
   private static int catCount;
   public static final int RUN_LIMIT = 200;
 
-  public Cat(String name) {
-    super(name);
+  public Cat(String name, int appetite) {
+    super(name, appetite);
     catCount++;
   }
 
