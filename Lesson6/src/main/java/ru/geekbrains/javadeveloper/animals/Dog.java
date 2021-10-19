@@ -1,11 +1,13 @@
+package ru.geekbrains.javadeveloper.animals;
+
 public class Dog extends Animal {
 
   private static int dogCount;
   public static final int RUN_LIMIT = 500;
   public static final int SWIM_LIMIT = 10;
 
-  public Dog(String name) {
-    super(name);
+  public Dog(String name, int appetite) {
+    super(name, appetite);
     dogCount++;
   }
 
