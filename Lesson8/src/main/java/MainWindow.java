@@ -27,7 +27,7 @@ public class MainWindow extends JFrame {
     historyText.setEditable(false);
     JScrollPane historyScroll = new JScrollPane(historyText);
 
-    JTextArea sendText = new JTextArea(2,1);
+    JTextArea sendText = new JTextArea(2, 1);
     JScrollPane sendScroll = new JScrollPane(sendText);
 
     JButton sendButton = new JButton("Отправить");
